@@ -24,9 +24,11 @@ public class Controller {
         return "Server health is up and running";
     }
 
-String []names ={"saleh","abdullah","alshehri"};
+
+
     @GetMapping(path="/names")
     public String[] names(){
+    String []names ={"saleh","Abdullah","alshehri"};    
         return names;
     }
 
